@@ -13,7 +13,7 @@ test('verify add employee', async ({ page }) => {
     await page.locator("(//input[contains(@class,'oxd-input oxd-input--active')])[2]").fill(data.firstname)
     await page.locator("input[name='middleName']").fill(data.middlename)
     await page.locator("input[name='lastName']").fill(data.lastname)
-    await page.locator("(//label[normalize-space(text())='Employee Id']/following::input)[1]").fill("4398")
+    await page.locator("(//label[normalize-space(text())='Employee Id']/following::input)[1]").fill("488098")
     await page.locator("//button[@type='submit']").click()
     await expect(page.locator("//a[normalize-space(text())='Employee List']")).toBeVisible()
 })
