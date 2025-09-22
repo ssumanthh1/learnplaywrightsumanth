@@ -6,6 +6,7 @@ test('verify login with valid credentials', async ({ page }) => {
     await page.locator("//input[@placeholder='Password']").fill('admin123')
     await page.locator("//button[@type='submit']").click()
     await expect(page).toHaveURL("https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index")
+    
 
 })
 
