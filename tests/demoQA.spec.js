@@ -1,5 +1,5 @@
 import { test, expect } from '@playwright/test';
-import cred from "../testdata/{}demoQA.json"
+import cred from "../testdata/demoQA.json"
 test('verify add employee', async ({ page }) => {
     await page.goto("https://demoqa.com/")
     await expect(page.locator("//div[@class='home-banner']//img[1]")).toBeVisible()

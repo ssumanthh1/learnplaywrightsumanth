@@ -18,5 +18,7 @@
 // y =false
 // console.log(4>2  ? x :y)
 
-
+// let x=45
+// x="sumanth"
+// console.log(x)
 

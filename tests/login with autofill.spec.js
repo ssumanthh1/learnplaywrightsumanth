@@ -5,7 +5,10 @@ test('login with autofill method', async ({ page }) => {
     await page.goto("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login")
     const value1=(await page.locator("//p[text()='Username : Admin']").textContent()).substring(11)
     const value2=(await page.locator("//p[contains(.,'admin123')]").textContent()).substring(11)
+<<<<<<< HEAD:tests/login with autofill.spec.js
     
+=======
+>>>>>>> 733d01ea70e59a083c8c14adcd28fb12ddd65aef:tests/login_with_autofill.spec.js
     // console.log(value1)
     // console.log(value2)
     
@@ -17,5 +20,9 @@ test('login with autofill method', async ({ page }) => {
     
 
 
+<<<<<<< HEAD:tests/login with autofill.spec.js
 
 })
+=======
+})
+>>>>>>> 733d01ea70e59a083c8c14adcd28fb12ddd65aef:tests/login_with_autofill.spec.js
